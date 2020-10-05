@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getsolve = getsolve)
 }
 
-## The second function that follows, cacheSolve, calculate the inverse of the 
+## The second function that follows, cacheSolve, calculates the inverse of the 
 ## special "matrix" that is provided by the above function.
 
 cacheSolve <- function(x, ...) {
